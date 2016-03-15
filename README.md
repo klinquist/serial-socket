@@ -1,4 +1,4 @@
-Serial Socket client and server by Kris Linquist <kris@linquit.com>
+Serial Socket client and server by Kris Linquist <kris@linquist.com>
 
 These two nodejs apps allow serial ports to communicate with each other over socket.io (http websockets).  I wrote this for a multirotor aircraft to send its telemetry data to software on a Windows laptop.
 
