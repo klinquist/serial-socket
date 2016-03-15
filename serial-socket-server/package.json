@@ -1,0 +1,14 @@
+{
+  "name": "serial-socket-server",
+  "version": "1.0.0",
+  "description": "serial-socket-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kris Linquist <kris@linquist.com>",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^1.4.5"
+  }
+}
