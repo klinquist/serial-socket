@@ -18,6 +18,7 @@ SerialPort.list(function (err, ports) {
     });
     if (names.indexOf(serial_port) == -1) {
         console.log("Invalid serial port specified. Valid serial ports: " + JSON.stringify(names));
+        process.exit(1);
     } else {
         listen();
     }
